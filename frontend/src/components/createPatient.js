@@ -7,7 +7,7 @@ axios.defaults.baseURL = 'http://localhost:3001';
 
 function CreatePatient() {
   const navigate = useNavigate();
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: {} } = useForm();
 
   const onSubmit = async (data) => {
     try {
@@ -65,7 +65,7 @@ function CreatePatient() {
         </div>
 
         <div className="mb-3">
-          <button onSubmit={handleSubmit(onSubmit)} type="submit" className="btn btn-primary">Add Patient</button>
+          <button  type="submit" className="btn btn-primary">Add Patient</button>
         </div>
       </form>
     </div>
