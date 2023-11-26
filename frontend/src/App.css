@@ -1,0 +1,69 @@
+/* Home page css */
+
+.home-body {
+    background-attachment: fixed;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-text {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 20px;
+}
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.bold-text {
+        font-weight: bold;
+        color: blue;
+    }
+
+/* Login page CSS */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+/* Navbar CSS */
+
+  .navbar {
+      background-color: #4144f8;
+  }
+  .navbar a {
+      color: #fff;
+  }
+  .navbar a:hover {
+      color: #ffcd00;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* View patients CSS */
+
+  .table-bordered {
+    margin-top: 3%;
+}
